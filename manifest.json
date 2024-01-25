@@ -1,0 +1,10 @@
+{
+  "name": "Idle dice",
+  "short_name": "Idle dice",
+  "description": "",
+  "start_url": "./game.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "#DECCCC",
+  "background_color": "#CCCCCC"
+}
