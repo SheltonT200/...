@@ -7,13 +7,15 @@ Luts.Upgrades.currency[i].d=[1,234,567,890]
 Luts.Upgrades.currency[i].e+=20
 }
 for (let o = 156; o < 174; o++){
-if (Luts.Upgrades.upgrades[o].maxLevel!=-1){
+if (Luts.Upgrades.upgrades[o].maxLevel!==(-1)){
 Luts.Upgrades.upgrades[o].level=Luts.Upgrades.upgrades[o].maxLevel-1}
-else{
-Luts.Upgrades.upgrades[o].level+=1234567890
+else if (Luts.Upgrades.upgrades[o].maxLevel==(-1)){
+Luts.Upgrades.upgrades[o].level=1e25
+}else{
+Luts.Upgrades.upgrades[o].level=Luts.Upgrades.upgrades[o].level
 }
 }
-for (let x = 0; x < u; x++){
+for (let x = 0; x < u; ++){
 Luts['Shop'].fakeList[4].androidCallback();
 }
 }
