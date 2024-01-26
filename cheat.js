@@ -15,7 +15,7 @@ Luts.Upgrades.upgrades[o].level=1e25
 Luts.Upgrades.upgrades[o].level=Luts.Upgrades.upgrades[o].level
 }
 }
-for (let x = 0; x < u; ++){
+for (let x = 0; x < u; x++){
 Luts['Shop'].fakeList[4].androidCallback();
 }
 }
