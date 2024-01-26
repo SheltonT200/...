@@ -14,6 +14,7 @@ Luts.Upgrades.upgrades[o].level=1e25
 }else{
 Luts.Upgrades.upgrades[o].level=Luts.Upgrades.upgrades[o].level
 }
+alert('do not get roll curve it breaks the game')
 }
 for (let x = 0; x < u; x++){
 Luts['Shop'].fakeList[4].androidCallback();
