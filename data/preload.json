@@ -2,11 +2,11 @@
   "json":[
     {
       "name": "text",
-      "url": "./text.json"
+      "url": "https://raw.githubusercontent.com/SheltonT200/.../main/data/text.json"
     },
     {
       "name": "changelog",
-      "url": "./changelog.json"
+      "url": "https://raw.githubusercontent.com/SheltonT200/.../main/data/changelog.json"
     }
   ],
   "font":[
