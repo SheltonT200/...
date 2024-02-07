@@ -19,27 +19,27 @@
   "atlas":[
     {
       "name": "ui",
-      "urlData": "ui.json",
-      "urlImg": "ui.png"
+      "urlData": "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/ui.json",
+      "urlImg": "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/ui.png"
     },
     {
       "name": "ingame",
-      "urlData": "ingame.json",
-      "urlImg": "ingame.png"
+      "urlData": "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/ingame.json",
+      "urlImg": "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/ingame.png"
     }
   ],
   "image":[
     {
       "name": "bg",
-      "url":  "bg/background.png"
+      "url":  "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/bg/background.png"
     },
     {
       "name": "cmg",
-      "url":  "bg/CoolmathGames-800x600.png"
+      "url":  "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/bg/CoolmathGames-800x600.png"
     },
     {
       "name": "tileable",
-      "url":  "bg/tileable.jpg"
+      "url":  "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/bg/tileable.jpg"
     }
   ],
   "sound":[
