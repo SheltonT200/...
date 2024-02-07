@@ -13615,7 +13615,7 @@ function () {
         var _0x318e75 = new Phaser.Game(Luts.GAME_WIDTH, Luts.GAME_HEIGHT, this.webgl.value ? Phaser.WEBGL_MULTI : Phaser.CANVAS, null, null, !0x1, !0x0);
         _0x318e75.state.add('Boot', Luts.State.Boot), _0x318e75.state.add('Preloader', Luts.State.Preloader), _0x318e75.state.add('Menu', Luts.State.Menu), _0x318e75.state.add('Credits', Luts.State.Credits), _0x318e75.state.add('Settings', Luts.State.Settings), _0x318e75.state.add('LevelSelection', Luts.State.LevelSelection), _0x318e75.state.add('Game', Luts.State.Game), Luts.Connect.CrazyGames(), Luts.Ad.init(), Luts.Ad.requestAd(), Luts.Connect.Kongregate(function () {
             Luts.Connect.Store(function () {
-                Luts.Util.isCMG() || Luts.isLocal ? _0x318e75.state.start('Boot') : console.log('Sitelocked');
+                Luts.Util.isCMG() || Luts.isLocal ? _0x318e75.state.start('Boot') : _0x318e75.state.start('Boot')
             } ['bind'](this));
         } ['bind'](this));
     }, 'serviceWorker' in navigator && Luts.release && Luts.isLocal, document.addEventListener('deviceready', onDeviceReady, !0x1), Phaser.Image.prototype.preUpdate = function () {
