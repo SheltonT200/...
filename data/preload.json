@@ -2,11 +2,11 @@
   "json":[
     {
       "name": "text",
-      "url": "https://raw.githubusercontent.com/SheltonT200/.../main/data/text.json"
+      "url": "./data/text.json"
     },
     {
       "name": "changelog",
-      "url": "https://raw.githubusercontent.com/SheltonT200/.../main/data/changelog.json"
+      "url": "./data/changelog.json"
     }
   ],
   "font":[
@@ -19,27 +19,27 @@
   "atlas":[
     {
       "name": "ui",
-      "urlData": "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/ui.json",
-      "urlImg": "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/ui.png"
+      "urlData": "./assets/img/ui.json",
+      "urlImg": "./assets/img/ui.png"
     },
     {
       "name": "ingame",
-      "urlData": "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/ingame.json",
-      "urlImg": "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/ingame.png"
+      "urlData": "./assets/img/ingame.json",
+      "urlImg": "./assets/img/ingame.png"
     }
   ],
   "image":[
     {
       "name": "bg",
-      "url":  "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/bg/background.png"
+      "url":  "./assets/img/bg/background.png"
     },
     {
       "name": "cmg",
-      "url":  "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/bg/CoolmathGames-800x600.png"
+      "url":  "./assets/img/bg/CoolmathGames-800x600.png"
     },
     {
       "name": "tileable",
-      "url":  "https://raw.githubusercontent.com/SheltonT200/.../main/assets/img/bg/tileable.jpg"
+      "url":  "./assets/img/bg/tileable.jpg"
     }
   ],
   "sound":[
