@@ -13714,7 +13714,7 @@ function () {
             _0x1d4784.setGameSize(Luts.GAME_WIDTH * _0x2c0b85 * _0x3db87b, Luts.GAME_HEIGHT * _0x368a5f * _0x3db87b), _0x1d4784.setUserScale(0x1 / _0x3db87b), this.game.state.resize(_0x2c0b85, _0x368a5f);
         }
     }, Luts.State.Boot.prototype.preload = function () {
-        this.game.load.json('preload', '/data/preload.json'), this.game.load.json('config', '/data/config.json');
+        this.game.load.json('preload', './data/preload.json'), this.game.load.json('config', './data/config.json');
     }, Luts.State.Boot.prototype.create = function () {
         this.game.state.start('Preloader'), Luts.Config = this.game.cache.getJSON('config');
     }, Luts.State.Preloader = function (_0x477426) {}, Luts.State.Preloader.constructor = Luts.State.Preloader, Luts.State.Preloader.prototype = Object.create(Luts.State.BaseState.prototype), Luts.State.Preloader.prototype.init = function () {
