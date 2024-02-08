@@ -2,11 +2,11 @@
   "json":[
     {
       "name": "text",
-      "url": "./data/text.json"
+      "url": "text.json"
     },
     {
       "name": "changelog",
-      "url": "./data/changelog.json"
+      "url": "changelog.json"
     }
   ],
   "font":[
@@ -19,27 +19,27 @@
   "atlas":[
     {
       "name": "ui",
-      "urlData": "./assets/img/ui.json",
-      "urlImg": "./assets/img/ui.png"
+      "urlData":"ui.json",
+      "urlImg": "ui.png"
     },
     {
       "name": "ingame",
-      "urlData": "./assets/img/ingame.json",
-      "urlImg": "./assets/img/ingame.png"
+      "urlData": "ingame.json",
+      "urlImg": "ingame.png"
     }
   ],
   "image":[
     {
       "name": "bg",
-      "url":  "./assets/img/bg/background.png"
+      "url":  "/bg/background.png"
     },
     {
       "name": "cmg",
-      "url":  "./assets/img/bg/CoolmathGames-800x600.png"
+      "url":  "/bg/CoolmathGames-800x600.png"
     },
     {
       "name": "tileable",
-      "url":  "./assets/img/bg/tileable.jpg"
+      "url":  "/bg/tileable.jpg"
     }
   ],
   "sound":[
